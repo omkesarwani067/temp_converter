@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #17064f;
+}
+
+.container {
+    background-color: rgb(165, 69, 182);
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+select {
+    width: 85.6%;
+    height: 40px;
+    padding: 0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#convert-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#convert-btn:hover {
+    background-color: #3e8e41;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #150101;
+}
